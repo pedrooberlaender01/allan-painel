@@ -4,19 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Allan Cabral - Leads Dashboard</title>
-    <meta name="description" content="Dashboard de gerenciamento de leads - Allan Cabral" />
-    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="./assets/index-8_z2aKYe.js"></script>
-    <link rel="modulepreload" crossorigin href="./assets/vendor-react-CPqLHB0g.js">
-    <link rel="modulepreload" crossorigin href="./assets/vendor-supabase-Dq-Jb853.js">
-    <link rel="modulepreload" crossorigin href="./assets/vendor-utils-DK8_s1nb.js">
-    <link rel="modulepreload" crossorigin href="./assets/vendor-charts-DFdY1CLK.js">
-    <link rel="stylesheet" crossorigin href="./assets/index-DrcXHQjD.css">
+    <script>
+      var pathSegmentsToKeep = 1;
+      var l = window.location;
+      l.replace(
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
+        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        l.hash
+      );
+    </script>
   </head>
-  <body class="bg-surface text-txt antialiased">
-    <div id="root"></div>
-  </body>
+  <body></body>
 </html>
